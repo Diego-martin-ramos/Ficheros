@@ -17,13 +17,13 @@ public class AcesoDatosFicheros {
         // Directorio raíz del proyecto
         File root = new File("MiProyecto");
 
-        // 1. Definición de directorios
+        // Definición de directorios
         File src = new File(root, "src");
         File bin = new File(src, "bin");
         File imagenes = new File(root, "imagenes");
         File junit = new File(root, "junit");
 
-        // 2. Definición de archivos
+        // Definición de archivos
         File contacto = new File(root, "contacto.txt");
         File imagen = new File(imagenes, "imagen.png");
         File readme = new File(root, "readme.md");
@@ -43,12 +43,10 @@ public class AcesoDatosFicheros {
             System.err.println("Error al crear los archivos: " + e.getMessage());
         }
 
-        // 3. Recorrer y mostrar la estructura por pantalla
         System.out.println("Contenido del proyecto:");
         mostrarEstructura(root, "");
     }
 
-    // Método recursivo para listar archivos y carpetas en formato árbol
     private static void mostrarEstructura(File dir, String indent) {
         if (!dir.exists()) return;
 
