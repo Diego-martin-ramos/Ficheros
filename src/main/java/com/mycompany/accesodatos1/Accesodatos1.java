@@ -5,7 +5,7 @@
 package com.mycompany.accesodatos1;
 import java.io.File;
 import java.io.IOException;
-
+ 
 /**
  * crear la estructura dentro de src bin para los binarios, otro directorio para imagenes, pruebas unitarias en una carpeta que se llame junit y los ficheros contacto.txt, y imagen en la carpeta imagen, readme.md
  * recorre el contenido y muestralo por pantalla 
