@@ -11,7 +11,7 @@ import java.io.IOException;
  * recorre el contenido y muestralo por pantalla 
  * @author diego.marram.1
  */
-public class Accesodatos1 {
+public class AcesoDatosFicheros {
 
     public static void main(String[] args) {
         // Directorio raíz del proyecto
