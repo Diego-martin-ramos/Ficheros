@@ -1,0 +1,37 @@
+Mi agenda deportiva
+Archivo: C:\Users\dmr25\Documents\Codex\2026-11-15\ha\work\prueba_menu\datos\planes.json
+
+1 Crear | 2 Listar | 3 Buscar | 4 Actualizar | 5 Append sesión | 6 Borrar | 0 Salir
+ID: Nombre del plan: Deporte: Nombre del deportista: Edad: Plan creado y guardado.
+
+1 Crear | 2 Listar | 3 Buscar | 4 Actualizar | 5 Append sesión | 6 Borrar | 0 Salir
+ID: Nombre del plan: Deporte: Nombre del deportista: Edad: Plan creado y guardado.
+
+1 Crear | 2 Listar | 3 Buscar | 4 Actualizar | 5 Append sesión | 6 Borrar | 0 Salir
+ID del plan: Fecha (yyyy-MM-dd): Actividad: Minutos: Sesión añadida y guardada (append).
+
+1 Crear | 2 Listar | 3 Buscar | 4 Actualizar | 5 Append sesión | 6 Borrar | 0 Salir
+ID del plan: Fecha (yyyy-MM-dd): Actividad: Minutos: Sesión añadida y guardada (append).
+
+1 Crear | 2 Listar | 3 Buscar | 4 Actualizar | 5 Append sesión | 6 Borrar | 0 Salir
+Plan 10 | Plan de prueba | Running | Persona de prueba (22 años) | sesiones: 2
+Plan 20 | Plan auxiliar | Natación | Otra persona (24 años) | sesiones: 0
+
+1 Crear | 2 Listar | 3 Buscar | 4 Actualizar | 5 Append sesión | 6 Borrar | 0 Salir
+ID: Plan 10 | Plan de prueba | Running | Persona de prueba (22 años) | sesiones: 2
+2026-11-16 | Carrera suave | 30 min
+2026-11-18 | Series | 45 min
+
+1 Crear | 2 Listar | 3 Buscar | 4 Actualizar | 5 Append sesión | 6 Borrar | 0 Salir
+ID: Nuevo nombre: Nuevo deporte: Plan actualizado y guardado.
+
+1 Crear | 2 Listar | 3 Buscar | 4 Actualizar | 5 Append sesión | 6 Borrar | 0 Salir
+ID: Plan eliminado.
+
+1 Crear | 2 Listar | 3 Buscar | 4 Actualizar | 5 Append sesión | 6 Borrar | 0 Salir
+Plan 10 | Plan actualizado | Atletismo | Persona de prueba (22 años) | sesiones: 2
+
+1 Crear | 2 Listar | 3 Buscar | 4 Actualizar | 5 Append sesión | 6 Borrar | 0 Salir
+ID: No existe el plan 999
+
+1 Crear | 2 Listar | 3 Buscar | 4 Actualizar | 5 Append sesión | 6 Borrar | 0 Salir

@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "nombre": "Preparación 5 km - semana 2",
+    "deporte": "Atletismo",
+    "deportista": {
+      "nombre": "Álex García",
+      "edad": 22
+    },
+    "entrenamientos": [
+      {
+        "fecha": "2026-11-16",
+        "actividad": "Carrera suave",
+        "minutos": 30
+      },
+      {
+        "fecha": "2026-11-18",
+        "actividad": "Series 6 x 400 m",
+        "minutos": 45
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Técnica en piscina",
+    "deporte": "Natación",
+    "deportista": {
+      "nombre": "Lucía Pérez",
+      "edad": 24
+    },
+    "entrenamientos": [
+      {
+        "fecha": "2026-11-17",
+        "actividad": "Crol",
+        "minutos": 40
+      }
+    ]
+  }
+]

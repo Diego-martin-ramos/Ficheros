@@ -1,0 +1,65 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/C:/Program%20Files/Apache%20NetBeans/java/maven/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< es.ficheros:entrenamientos-crud >-------------------
+[INFO] Building EntrenamientosCRUD 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ entrenamientos-crud ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ entrenamientos-crud ---
+[INFO] skip non existing resourceDirectory C:\Users\dmr25\Documents\Codex\2026-11-15\ha\outputs\EntrenamientosCRUD\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ entrenamientos-crud ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 6 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ entrenamientos-crud ---
+[INFO] skip non existing resourceDirectory C:\Users\dmr25\Documents\Codex\2026-11-15\ha\outputs\EntrenamientosCRUD\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ entrenamientos-crud ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug release 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ entrenamientos-crud ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running es.ficheros.deportes.RepositorioPlanesTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.176 s -- in es.ficheros.deportes.RepositorioPlanesTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ entrenamientos-crud ---
+[INFO] Building jar: C:\Users\dmr25\Documents\Codex\2026-11-15\ha\outputs\EntrenamientosCRUD\target\entrenamientos-crud-1.0.0.jar
+[INFO] 
+[INFO] --- shade:3.6.0:shade (default) @ entrenamientos-crud ---
+[INFO] Including com.google.code.gson:gson:jar:2.11.0 in the shaded jar.
+[INFO] Including com.google.errorprone:error_prone_annotations:jar:2.27.0 in the shaded jar.
+[WARNING] error_prone_annotations-2.27.0.jar, gson-2.11.0.jar define 1 overlapping classes: 
+[WARNING]   - META-INF.versions.9.module-info
+[WARNING] entrenamientos-crud-1.0.0.jar, error_prone_annotations-2.27.0.jar, gson-2.11.0.jar define 1 overlapping resource: 
+[WARNING]   - META-INF/MANIFEST.MF
+[WARNING] maven-shade-plugin has detected that some files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the file is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See https://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Attaching shaded artifact.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.264 s
+[INFO] Finished at: 2026-11-15T14:17:45+01:00
+[INFO] ------------------------------------------------------------------------

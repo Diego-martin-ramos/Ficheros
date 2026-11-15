@@ -1,0 +1,19 @@
+=== Mi agenda deportiva ===
+Modo demo: solo se reinicia datos/demo/planes.json
+Java: 24.0.2
+STATIC: planes creados con constructor en esta JVM = 2
+TRANSIENT en memoria: nota presente = true; consulta registrada = true
+CREATE: guardados los planes 1 y 2. Total = 2
+READ: recuperados del disco 2 planes.
+  Plan 1 | Preparación 5 km | Running | Álex García (22 años) | sesiones: 1
+  Plan 2 | Técnica en piscina | Natación | Lucía Pérez (24 años) | sesiones: 1
+TRANSIENT tras leer: nota = null; ultimaConsultaMillis = 0
+APPEND: plan 1 pasa de 1 a 2 sesiones; se conserva la primera.
+UPDATE: Plan 1 | Preparación 5 km - semana 2 | Atletismo | Álex García (22 años) | sesiones: 2
+DELETE: plan 2 eliminado = true
+READ FINAL: Plan 1 | Preparación 5 km - semana 2 | Atletismo | Álex García (22 años) | sesiones: 2
+  2026-11-16 | Carrera suave | 30 min
+  2026-11-18 | Series 6 x 400 m | 45 min
+JSON: atributos static y transient ausentes = true
+RESULTADO: CRUD completado; 1 plan persistido con 2 entrenamientos.
+JSON generado: datos/demo/planes.json

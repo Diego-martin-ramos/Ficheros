@@ -1,0 +1,23 @@
+[
+  {
+    "id": 10,
+    "nombre": "Plan actualizado",
+    "deporte": "Atletismo",
+    "deportista": {
+      "nombre": "Persona de prueba",
+      "edad": 22
+    },
+    "entrenamientos": [
+      {
+        "fecha": "2026-11-16",
+        "actividad": "Carrera suave",
+        "minutos": 30
+      },
+      {
+        "fecha": "2026-11-18",
+        "actividad": "Series",
+        "minutos": 45
+      }
+    ]
+  }
+]

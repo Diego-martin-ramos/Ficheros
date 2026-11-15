@@ -1,0 +1,13 @@
+* text=auto
+*.java text eol=lf
+*.xml text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+*.pdf binary
+*.jar binary
+*.jpg binary
+*.zip binary
+evidencias/*.txt -text whitespace=-blank-at-eol,cr-at-eol
+datos/demo/ejecucion.txt -text whitespace=cr-at-eol

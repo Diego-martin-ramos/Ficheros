@@ -1,0 +1,35 @@
+1
+10
+Plan de prueba
+Running
+Persona de prueba
+22
+1
+20
+Plan auxiliar
+Natación
+Otra persona
+24
+5
+10
+2026-11-16
+Carrera suave
+30
+5
+10
+2026-11-18
+Series
+45
+2
+3
+10
+4
+10
+Plan actualizado
+Atletismo
+6
+20
+2
+3
+999
+0
