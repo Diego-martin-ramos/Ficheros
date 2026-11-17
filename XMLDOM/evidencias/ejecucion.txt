@@ -1,0 +1,48 @@
+=== XML DOM - Mi agenda deportiva ===
+Java: 24.0.2
+Archivo: C:\Users\dmr25\Documents\Codex\2026-11-17\p-gina-58-y-sig-xml\outputs\XMLDOM\datos\planes.xml
+XML generado correctamente en UTF-8.
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<planesDeportivos>
+  <plan id="1">
+    <nombre>Preparación 5 km</nombre>
+    <deporte>Atletismo</deporte>
+    <deportista>
+      <nombre>Álex García</nombre>
+      <edad>22</edad>
+    </deportista>
+    <entrenamientos>
+      <entrenamiento>
+        <fecha>2026-11-17</fecha>
+        <actividad>Carrera suave</actividad>
+        <minutos>30</minutos>
+      </entrenamiento>
+      <entrenamiento>
+        <fecha>2026-11-18</fecha>
+        <actividad>Series &amp; técnica &lt;avanzada&gt;</actividad>
+        <minutos>45</minutos>
+      </entrenamiento>
+    </entrenamientos>
+  </plan>
+  <plan id="2">
+    <nombre>Técnica en piscina</nombre>
+    <deporte>Natación</deporte>
+    <deportista>
+      <nombre>Lucía Pérez</nombre>
+      <edad>24</edad>
+    </deportista>
+    <entrenamientos>
+      <entrenamiento>
+        <fecha>2026-11-19</fecha>
+        <actividad>Crol y respiración</actividad>
+        <minutos>40</minutos>
+      </entrenamiento>
+    </entrenamientos>
+  </plan>
+</planesDeportivos>
+LECTURA DOM: raíz = planesDeportivos
+Planes leídos: 2
+Deportistas leídos: 2
+Entrenamientos leídos: 3
+RESULTADO: escritura y lectura DOM completadas.

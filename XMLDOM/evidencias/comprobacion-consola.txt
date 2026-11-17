@@ -1,0 +1,8 @@
+Destino alternativo con espacios -> salida 0 (correcta)
+XML creado y vuelto a leer.
+
+Exceso de argumentos -> salida 1 (correcta)
+Uso: java -jar xml-dom-1.0.0.jar [ruta-del-xml]
+
+Destino no escribible (directorio) -> salida 1 (correcta)
+No se pudo generar o comprobar el XML: C:\Users\dmr25\Documents\Codex\2026-11-17\p-gina-58-y-sig-xml\work
